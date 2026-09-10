@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+<body>
+    <p id="result">0</p>
+    <div class="buttons">
+        <button class="round-button lightgrey">
+            <span class="button-text black">M+</span>
+        </button>
+        <button class="round-button lightgrey">
+            <span class="button-text">M-</span>
+        </button>
+        <button class="round-button lightgrey">
+            <span class="button-text">MR</span>
+        </button>
+        <button class="round-button lightgrey">
+            <span class="button-text">MS</span>
+        </button>
+        <button class="round-button lightgrey">
+            <span class="button-text">AC</span>
+        </button>
+        <button class="round-button lightgrey">
+            <span class="button-text">MC</span>
+        </button>
+        <button class="round-button lightgrey" id="percent" data-special="percent">
+            <span class="button-text">%</span>
+        </button>
+        <button class="round-button orange" id="del" data-special="del">
+            <span class="button-text white">
+                <div class="circle"></div>
+                <div class="stick"></div>
+                <div class="circle"></div>
+            </span>
+        </button>
+        <button class="round-button darkgrey number">
+            <span class="button-text white">7</span>
+        </button>
+        <button class="round-button darkgrey number">
+            <span class="button-text white">8</span>
+        </button>
+        <button class="round-button darkgrey number">
+            <span class="button-text white">9</span>
+        </button>
+        <button class="round-button orange" id="mult" data-special="mult">
+            <span class="button-text white">x</span>
+        </button>
+        <button class="round-button darkgrey number">
+            <span class="button-text white">4</span>
+        </button>
+        <button class="round-button darkgrey number">
+            <span class="button-text white">5</span>
+        </button>
+        <button class="round-button darkgrey number">
+            <span class="button-text white">6</span>
+        </button>
+        <button class="round-button orange" id="minus" data-special="minus">
+            <span class="button-text white">-</span>
+        </button>
+        <button class="round-button darkgrey number">
+            <span class="button-text white">1</span>
+        </button>
+        <button class="round-button darkgrey number">
+            <span class="button-text white">2</span>
+        </button>
+        <button class="round-button darkgrey number">
+            <span class="button-text white">3</span>
+        </button>
+        <button class="round-button orange" id="plus" data-special="plus">
+            <span class="button-text white">+</span>
+        </button>
+        <button class="round-button darkgrey large number">
+            <span class="button-text white">0</span>
+        </button>
+        <button class="round-button darkgrey" id="comma" data-special="comma">
+            <span class="button-text white">,</span>
+        </button>
+        <button class="round-button orange" id="equal" data-special="equal">
+            <span class="button-text white">=</span>
+        </button>
+    </div>
+
+    <script src="calc.js"></script>
+</body>
+</html>

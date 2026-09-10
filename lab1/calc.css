@@ -1,0 +1,67 @@
+html {
+    background-color: black;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(6, auto);
+    gap: 20px;
+    justify-items: center;
+}
+
+.round-button {
+    width: 70px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.large {
+    width: 95%;
+    grid-column: 1 / span 2;
+    border-radius: 50px;
+}
+
+.round-button.lightgrey {
+    background-color: rgb(216, 211, 211);
+}
+
+.round-button.orange {
+    background-color: orange;
+}
+
+.round-button.darkgrey {
+    background-color: rgb(53, 52, 52);
+}
+
+.button-text {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.button-text.white {
+    color: white;
+}
+
+#result {
+    color: white;
+    font-size: 60px;
+    text-align: right;
+    margin-inline: 20px;
+}
+
+.circle {
+    background-color: white;
+    border-radius: 100%;
+    width: 5px;
+    height: 5px;
+    margin: 0 auto;
+}
+
+.stick {
+    background-color: white;
+    width: 20px;
+    height: 4px;
+    margin: 0 auto;
+    margin-block: 4px;
+}
