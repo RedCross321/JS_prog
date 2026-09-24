@@ -8,10 +8,15 @@
 </head>
 <body>
     <div class="phone-container">
-        <div class="frame1-content">
+
+        <div class="frame1-content" id="emptyState">
             <img src="foto.avif" alt="Logo">
         </div>
-        <a href="addTask.html" class="fab-button">+</a>
+
+        <div class="task-list" id="taskList" style="display: none;"></div>
+
+        <a href="addTask.html" class="fab-button" onclick="openModal()">+</a>
     </div>
+    <script src="scripts.js"></script>
 </body>
 </html>

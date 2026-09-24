@@ -9,12 +9,13 @@
 <body>
     <div class="phone-container">
         <div class="frame2-header">
-            <a href="index.html" class="back-button">←</a>
-            <a href="tasks.html" class="save-button">✓</a>
+            <a href="index.html" class="back-button" onclick="closeModal()">←</a>
+            <button class="save-button" onclick="createTask()">✓</button>
         </div>
         <div class="frame2-content">
-            <textarea class="task-textarea" placeholder="Add New Task..."></textarea>
+            <textarea class="task-textarea" id="taskInput" placeholder="Add New Task..."></textarea>
         </div>
     </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
